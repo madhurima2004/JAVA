@@ -5,7 +5,7 @@ public class majorityElement {
         Solution obj = new Solution();
         
         // Example usage:
-        int[] nums = {2, 2, 1, 1, 1, 2, 2};
+        int[] nums = {2, 2, 1, 1, 1, 2, 2,7,7,6,2,2};
         int majority = obj.majorityElement(nums);
         System.out.println("The majority element is: " + majority);
     }
