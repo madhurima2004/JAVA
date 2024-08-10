@@ -1,4 +1,4 @@
-package JAVA;
+// package JAVA;
 class Arrayex{
     void maxOfArray(){
         int[] arr={0,1,73,8,53,};
