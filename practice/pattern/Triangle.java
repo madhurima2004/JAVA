@@ -1,5 +1,3 @@
-// package practice.pattern;
-
 import java.util.Scanner;
 
 public class Triangle {
