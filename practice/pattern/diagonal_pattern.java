@@ -4,9 +4,9 @@ public class diagonal_pattern {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter row number :");
-        int r = sc.nextInt();
+        int row = sc.nextInt();
 
-        for(int i=1;i<=r;i++){
+        for(int i=1;i<=row;i++){
             for(int j=1;j<=i;j++){
                 if(i>=2 && j<=i-1){
                     System.out.print(" ");
