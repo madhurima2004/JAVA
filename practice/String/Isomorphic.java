@@ -35,8 +35,12 @@ public class Isomorphic {
         
         String s2 = "foo";
         String t2 = "bar";
+
+        String s3 = "Maa";
+        String t3 = "Baba";
         
         System.out.println("Are \"" + s1 + "\" and \"" + t1 + "\" isomorphic? " + iso.isIsomorphic(s1, t1));
         System.out.println("Are \"" + s2 + "\" and \"" + t2 + "\" isomorphic? " + iso.isIsomorphic(s2, t2));
+        System.out.println("Are \"" + s3 + "\" and \"" + t3 + "\" isomorphic? " + iso.isIsomorphic(s3, t3));
     }
 }
