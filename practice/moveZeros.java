@@ -17,7 +17,7 @@ public class moveZeros {
     public static void main(String[] args) {
         Solution solution = new Solution();
         
-        int[] nums = {0, 1, 0, 3, 12};
+        int[] nums = {0, 1, 0, 3, 12 ,0};
         System.out.println("Original array: ");
         printArray(nums);
         
