@@ -4,8 +4,15 @@ import java.util.Scanner;
 
 public class count_elem {
 
-static int count_occurances(int[] arr){
+static int count_occurances(int[] arr,int x){
 
+    int count=0;
+    for(int i=0;i<arr.length;i++){
+        if(arr[i]==x){
+        count++;
+        }
+    }
+    return count;
 }
 
     public static void main(String[] args) {
@@ -17,5 +24,9 @@ static int count_occurances(int[] arr){
         for(int i=0;i<arr.length;i++){
             arr[i] = sc.nextInt();
         }
+        System.out.println("Enter x:");
+        int x=sc.nextInt();
+
+        System.out.println("Count of x is :"+ count_occurances(arr, x));
     }
 }
