@@ -10,7 +10,6 @@ static int countGreaterElement(int[] arr, int x){
         }
     }
     return count;
-    // return -1;
 }
 
     public static void main(String[] args) {
