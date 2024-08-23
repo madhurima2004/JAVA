@@ -8,8 +8,6 @@ public class last_occurrence {
             if(arr[i]==x){
                 return i;
             }
-           
-
         }
         return -1;
     }

@@ -1,10 +1,7 @@
 // package Arrays;
 //count the number of elements strictly greater than x
-
 import java.util.Scanner;
-
-public class Count_greater_element {
-    
+public class Count_greater_element {   
 static int countGreaterElement(int[] arr, int x){
     int count=0;
     for(int i=0;i<=arr.length-1;i++){
@@ -18,7 +15,7 @@ static int countGreaterElement(int[] arr, int x){
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size of the array:");
+        System.out.println("Enter the size of the array is:");
         int n = sc.nextInt();
         int[] arr = new int[n];
         System.out.println("enter " + n + "elements:");
