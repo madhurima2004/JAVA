@@ -22,7 +22,7 @@ static int[] newArray(int[] arr){
         }
         int[] ans = newArray(arr);
         // System.out.println(newArray(arr));
-        System.out.println("smallest " + ans[0]);
-        System.out.println("largest " + ans[1]);
+        System.out.println("Smallest Element :" + ans[0]);
+        System.out.println("Largest Element :" + ans[1]);
 }
 }
