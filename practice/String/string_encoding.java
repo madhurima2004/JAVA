@@ -4,7 +4,12 @@
 public class string_encoding {
 public static void main(String[] args) {
     String str = "How are You?";
-    
+    String words[] = str.split(" ");
 
+    String firstWord = words[0].replaceAll("[AEIOUaeiou]", "%");
+    String secondWord = words[1].replaceAll("[BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz]", "#");
+    String thirdWord = words[2].toUpperCase();
+    String result = firstWord + secondWord + thirdWord;
+    System.out.println(result);
 }
 }
