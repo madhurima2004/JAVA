@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class N-Queen{
+public class NQueens {
     public List<List<String>> solveNQueens(int n) {
         List<List<String>> result = new ArrayList<>();
         char[][] board = new char[n][n];
@@ -73,7 +73,7 @@ public class N-Queen{
     }
 
     public static void main(String[] args) {
-        N-Queen nQueens = new N-Queen();
+        NQueens nQueens = new NQueens();
         int n = 4;
         List<List<String>> solutions = nQueens.solveNQueens(n);
         for (List<String> solution : solutions) {
