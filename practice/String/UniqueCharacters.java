@@ -8,10 +8,10 @@ public class UniqueCharacters {
     }
 
     public static void findUniqueCharacters(String input) {
-        // Create a map to store character frequencies
+        
         Map<Character, Integer> charCountMap = new HashMap<>();
 
-        // Count occurrences of each character
+        
         for (char c : input.toCharArray()) {
             charCountMap.put(c, charCountMap.getOrDefault(c, 0) + 1);
         }
