@@ -27,6 +27,6 @@ static int count_occurances(int[] arr,int x){
         System.out.println("Enter x:");
         int x=sc.nextInt();
 
-        System.out.println("Count of x is :"+ count_occurances(arr, x));
+        System.out.println("The Count of x is :"+ count_occurances(arr, x));
     }
 }
